@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    <welcome-file-list>
+        <welcome-file>client/home.jsp</welcome-file>
+    </welcome-file-list>
+<!--  admin servlets  -->
+    <servlet>
+        <servlet-name>AdminServlet</servlet-name>
+        <servlet-class>com.youcode.airafrika.Controllers.AdminServlets.Auth.AdminServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminFlightServlet</servlet-name>
+        <servlet-class>com.youcode.airafrika.Controllers.AdminServlets.FlightServlets.FlightServlet</servlet-class>
+    </servlet>
+<!--  client servlets  -->
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>com.youcode.airafrika.Controllers.HomeServlets</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ClientFlightServlet</servlet-name>
+        <servlet-class>com.youcode.airafrika.Controllers.ClientServlets.FlightServlet.FlightServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminServlet</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminFlightServlet</servlet-name>
+        <url-pattern>/admin/flights</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ClientFlightServlet</servlet-name>
+        <url-pattern>/flights</url-pattern>
+    </servlet-mapping>
+</web-app>

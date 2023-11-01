@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+<!--    <persistence-unit name="PERSISTENCE">-->
+<!--        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>-->
+
+<!--        <class>com.youcode.airafrika.Entities.Admin</class>-->
+<!--        <class>com.youcode.airafrika.Entities.Airport</class>-->
+<!--        <class>com.youcode.airafrika.Entities.Extra</class>-->
+<!--        <class>com.youcode.airafrika.Entities.Reservation</class>-->
+<!--        <class>com.youcode.airafrika.Entities.Passenger</class>-->
+<!--        <class>com.youcode.airafrika.Entities.Company</class>-->
+<!--        <class>com.youcode.airafrika.Entities.Plane</class>-->
+<!--        <class>com.youcode.airafrika.Entities.Flight</class>-->
+<!--        <class>com.youcode.airafrika.Entities.Companion</class>-->
+<!--        <class>com.youcode.airafrika.Entities.FlightPath</class>-->
+<!--        <class>com.youcode.airafrika.Entities.ReservationExtras</class>-->
+<!--        <class>com.youcode.airafrika.Entities.Seat</class>-->
+<!--        <class>com.youcode.airafrika.Entities.StopOver</class>-->
+
+<!--        <properties>-->
+<!--            <property name="hibernate.show_sql" value="true" />-->
+<!--            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL82Dialect" />-->
+
+<!--            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver" />-->
+<!--            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/airafrika1" />-->
+<!--            <property name="jakarta.persistence.jdbc.user" value="postgres" />-->
+<!--            <property name="jakarta.persistence.jdbc.password" value="mohamed1234" />-->
+<!--            <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>-->
+
+<!--        </properties>-->
+<!--    </persistence-unit>-->
+</persistence>
